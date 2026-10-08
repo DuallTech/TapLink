@@ -10,7 +10,7 @@ export interface LinkItem {
   icon: IconType
 }
 
-const ORCAMENTO_EMAIL = 'maria.santos@duallengenharia.com.br'
+const ORCAMENTO_EMAIL = 'equipe_comercial@duallengenharia.com.br'
 const WHATSAPP = '5511945406289'
 
 /** Áreas de atuação (conforme o site da Duall) */
@@ -39,7 +39,7 @@ export const links: LinkItem[] = [
     id: 'youtube',
     label: 'Conheça a Duall',
     description: 'Assista ao nosso vídeo institucional',
-    href: 'https://www.youtube.com/watch?v=dt4N0zSWFbE',
+    href: 'https://www.youtube.com/watch?v=vMMo-JEr5rE',
     icon: FiPlayCircle,
   },
   {
@@ -53,7 +53,7 @@ export const links: LinkItem[] = [
     id: 'google',
     label: 'Nos avalie no Google!',
     description: 'Sua opinião faz diferença',
-    href: 'https://www.google.com/search?q=duall+engenharia',
+    href: 'https://search.google.com/local/writereview?placeid=ChIJUxDkVDr4zpQRnRrBb73XoKk',
     icon: FaGoogle,
   },
 ]
@@ -76,8 +76,8 @@ export const socials: LinkItem[] = [
   {
     id: 'youtube-social',
     label: 'YouTube',
-    description: 'Vídeo institucional',
-    href: 'https://www.youtube.com/watch?v=dt4N0zSWFbE',
+    description: 'Acompanhe nosso canal',
+    href: 'https://www.youtube.com/@duallengenharia',
     icon: FiYoutube,
   },
 ]
